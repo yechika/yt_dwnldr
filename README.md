@@ -1,4 +1,6 @@
 ENGLISH-----------------------------------------------------------------------------------------------------
+
+
 Youtube Video Downloader with Flask
 
 This is a simple web application built with Flask that allows you to download YouTube videos. The application provides a user-friendly interface where you can input a YouTube video URL, get information about the video, and download it in MP4 format.
@@ -45,6 +47,8 @@ This project is for educational purposes only. Make sure to comply with YouTube'
 Feel free to contribute, report issues, or suggest improvements!
 
 INDONESIA-----------------------------------------------------------------------------------------------------
+
+
 Youtube Video Downloader dengan Flask
 
 Ini adalah aplikasi web sederhana yang dibangun dengan Flask yang memungkinkan Anda mengunduh video YouTube. Aplikasi ini menyediakan antarmuka yang ramah pengguna di mana Anda dapat memasukkan URL video YouTube, mendapatkan informasi tentang video, dan mengunduhnya dalam format MP4.
@@ -85,3 +89,6 @@ Silakan berkontribusi, laporkan masalah, atau sarankan perbaikan!
 
 
 #LEINNN
+![Proyek1](https://github.com/yechika/yt_dwnldr/img1.jpeg)
+![Proyek2](https://github.com/yechika/yt_dwnldr/img2.jpeg)
+![Proyek3](https://github.com/yechika/yt_dwnldr/img3.jpeg)

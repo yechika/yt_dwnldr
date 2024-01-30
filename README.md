@@ -14,10 +14,13 @@ Before you start, make sure you have the following installed on your machine:
 
 Installation
 1. Clone the repository:
+
 git clone https://github.com/yechika/yt_dwnldr.git
+
 cd yt_dwnldr
 
-2. Install the required dependencies:
+3. Install the required dependencies:
+
 pip install Flask pytube
 
 Usage
@@ -28,14 +31,6 @@ python app.py
 4. Optionally, choose the desired video quality.
 5. Click the "Download" button, and the video will be saved in the #Download folder.
 
-project-root/
-|-- templates/
-|   |-- index.html
-|-- static/
-|   |-- style.css
-|-- app.py
-|-- #Download/
-|-- README.md
 
 Notes
 The application uses Flask for the web framework and pytube to interact with the YouTube API.
@@ -62,9 +57,12 @@ Sebelum memulai, pastikan Anda telah menginstal hal berikut di mesin Anda:
 
 Instalasi
 1. Klon repository:
+
 git clone https://github.com/yechika/yt_dwnldr.git
+
 cd yt_dwnldr
-2. Pasang dependensi yang diperlukan:
+3. Pasang dependensi yang diperlukan:
+
 pip install Flask pytube
 
 Penggunaan

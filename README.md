@@ -89,6 +89,6 @@ Silakan berkontribusi, laporkan masalah, atau sarankan perbaikan!
 
 
 #LEINNN
-![Proyek1](https://github.com/yechika/yt_dwnldr/img1.jpeg)
-![Proyek2](https://github.com/yechika/yt_dwnldr/img2.jpeg)
-![Proyek3](https://github.com/yechika/yt_dwnldr/img3.jpeg)
+![Proyek1](https://github.com/yechika/yt_dwnldr/blob/main/img1.jpeg)
+![Proyek2](https://github.com/yechika/yt_dwnldr/blob/main/img2.jpeg)
+![Proyek3](https://github.com/yechika/yt_dwnldr/blob/main/img3.jpeg)

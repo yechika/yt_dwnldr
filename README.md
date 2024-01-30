@@ -14,7 +14,7 @@ Before you start, make sure you have the following installed on your machine:
 
 Installation
 1. Clone the repository:
-git clone https://github.com/yechika/yt_dwnldr
+git clone https://github.com/yechika/yt_dwnldr.git
 cd yt_dwnldr
 
 2. Install the required dependencies:
@@ -62,7 +62,7 @@ Sebelum memulai, pastikan Anda telah menginstal hal berikut di mesin Anda:
 
 Instalasi
 1. Klon repository:
-git clone https://github.com/yechika/yt_dwnldr
+git clone https://github.com/yechika/yt_dwnldr.git
 cd yt_dwnldr
 2. Pasang dependensi yang diperlukan:
 pip install Flask pytube

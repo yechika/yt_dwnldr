@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+    --primaryTextColor: #232e35; /* untuk title / judul */
+    --secondaryTextColor: #656d72; /* untuk text paragraf */
+  
+    --borderColor: #f1f1f1;
+    --lineColor: #d9d9d9; /* untuk line di pre title*/
+  
+    --primaryBackgroundColor: #fff;
+    --secondaryBackgroundColor: #fbfbfb;
+    --thirdBackgroundColorColor: #f5f3fe;
+  
+    --primaryIconColor: #7e74f1;
+    --primaryIconColorHover: #5d51e8;
+  
+    --sectionPadding: 6rem 0;
+    --itemBorderRadius: 0.7rem;
+  }
+::marker {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    margin-top: 1px;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+button[type="submit"][name="itag"][value="audio"] {
+    background-color: #e74c3c;
+}
+
+button[type="submit"][name="itag"][value="audio"]:hover {
+    background-color: #c0392b;
+}
+
+button[type="submit"][name="itag"][value^="video"] {
+    background-color: #f39c12;
+}
+
+button[type="submit"][name="itag"][value^="video"]:hover {
+    background-color: #d35400;
+}
+
+video {
+    width: 100%;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  .footer__icons {
+    margin-bottom: 1rem;
+  }
+  .footer__icons a {
+    margin: 0 0.5rem;
+  }
+  .footer__icons svg {
+    fill: #3e3f40;
+  }
+  .footer__icons a:hover svg {
+    fill: #000;
+  }
+  .footer__icons a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+
+  .hero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px; 
+    margin-bottom: 20px; 
+    background-color: #f0f0f0;
+}
+
+.youtube-logo {
+    width: 40px;
+    margin-right: 10px;
+}
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+.nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-left: 20px;
+}
+
+.logo a {
+  color: var(--primaryTextColor);
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li a {
+  color: var(--primaryTextColor);
+}
+li::marker {
+    content: "";
+    color: #7e74f1; 
+    font-weight: bold;
+}
+
+
+.btn {
+  padding: 1rem 1.5rem;
+  background: #7e74f1;
+  border: 1.5px solid var(--borderColor);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+}
+
+
+.burger div {
+  width: 25px;
+  height: 4px;
+  background-color: #000;
+  margin: 7px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  z-index: 99;
+}
+
+.burger {
+  display: none;
+  z-index: 99;
+  position: fixed;
+  top: 33px;
+  right: 35px;
+}
+    
+
+  
+@media screen and (max-width: 600px) {
+    h1 {
+        margin: 0;
+    }
+
+    form {
+        width: 80%;
+    }
+}
